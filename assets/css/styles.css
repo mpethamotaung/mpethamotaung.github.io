@@ -10,7 +10,8 @@
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
-    transition: opacity o.3, visibility 0.3s;
+    transition: 0.3s;
+    opacity:30%;
 }
 
 #scroll-to-top i {
