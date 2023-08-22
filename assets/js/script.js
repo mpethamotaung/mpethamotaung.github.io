@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     window.addEventListener('scroll', function () {
-        if (this.window.scrollY > 300){
+        if (window.scrollY > 300){
             scrollToTopButton.classList.add('active');
         }else{
             scrollToTopButton.classList.remove('active');
