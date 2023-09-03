@@ -16,10 +16,12 @@ section {
 }
 
 section:hover{
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar{
     border-bottom: 2px solid #ddd;
 }
+
+
 
