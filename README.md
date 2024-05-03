@@ -23,7 +23,8 @@ deliver high-quality solutions that meet the needs of users and businesses alike
 During my tenure at Huawei Technologies, I had the opportunity to work on a diverse range
 of projects, honing my skills in software testing, technical engineering, network infrastructure,
 fintech solutions, and digital services. These experiences have not only expanded my technical
-skill set but also equipped me with valuable insights into project management, collaboration, and problem-solving.
+skill set but also equipped me with valuable insights into project management, collaboration,
+and problem-solving.
 
 ### Education
 
