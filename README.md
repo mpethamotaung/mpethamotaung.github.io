@@ -8,7 +8,8 @@ Certainly! Here's a basic README.md file for your GitHub portfolio:
 Welcome to my GitHub portfolio! I'm Mpetha S. Motaung, a Software Engineer with a passion for
 building innovative solutions and pushing the boundaries of technology. With a solid foundation
 in computer science acquired during my studies at Wuhan University and hands-on experience gained
-during my time at Huawei Technologies, I am equipped with the skills and knowledge to tackle a variety of challenges in the field of software engineering.
+during my time at Huawei Technologies, I am equipped with the skills and knowledge to tackle a
+variety of challenges in the field of software engineering.
 
 ### About Me
 
