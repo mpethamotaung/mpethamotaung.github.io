@@ -1,85 +1,50 @@
-Certainly! Here's a README.md file for your GitHub portfolio based on the information provided:
+Certainly! Here's a basic README.md file for your GitHub portfolio:
 
 ```markdown
 # Mpetha S. Motaung
 
-## Software Engineer | Graduate from Wuhan University | 2 Years of Experience at Huawei Technologies
+## Software Engineer | Wuhan University Graduate | 2 Years of Experience at Huawei Technologies
 
-Welcome to my GitHub portfolio! I am Mpetha S. Motaung, a highly motivated and innovative Software Engineer with a strong background in full-stack development, digital services, and software testing. With a Bachelor of Computer Science from Wuhan University and hands-on experience gained during my tenure at Huawei Technologies, I bring a blend of technical expertise and practical skills to the table.
+Welcome to my GitHub portfolio! I'm Mpetha S. Motaung, a Software Engineer with a passion for
+building innovative solutions and pushing the boundaries of technology. With a solid foundation
+in computer science acquired during my studies at Wuhan University and hands-on experience gained
+during my time at Huawei Technologies, I am equipped with the skills and knowledge to tackle a variety of challenges in the field of software engineering.
 
 ### About Me
 
-I am passionate about leveraging technology to solve real-world problems and enhance user experiences. Throughout my career, I have demonstrated proficiency in a wide range of programming languages and technologies, including C#, Python, Java, JavaScript, and cloud computing platforms such as AWS and Google Cloud Platform. My expertise spans across various domains, including digital services, fintech, and network infrastructure.
-
-### Skills
-
-**Proficient in:**
-- C#, Python, Java, C++, JavaScript
-- HTML, CSS, Node.js, Express, React, Angular
-- NoSQL, MySQL, SQLite3
-- Git & Git Version Control, jQuery, MongoDB, REST API
-- .Net, Golang
-
-**Experienced with:**
-- Cloud Computing, Google Cloud Platform, Amazon Web Services (AWS)
-- CI/CD, UX/UI, Unit Testing, OOP, DB Management
-- SoapUI, VS Code, Docker, SaaS
-
-**Expertise in:**
-- Digital Services, Front-end Frameworks, Back-end Frameworks
-- Full-stack Software Development
+I am dedicated to continuous learning and growth, always seeking to stay updated with the
+latest technologies and industry trends. My journey in software engineering has allowed me
+to develop expertise in various programming languages, frameworks, and tools, enabling me to
+deliver high-quality solutions that meet the needs of users and businesses alike.
 
 ### Experience
 
-#### Software Testing Engineer
-Huawei Technologies South Africa | 10/2021 – 11/2023
-- Conducted comprehensive software testing procedures to ensure product quality and reliability.
-- Developed and executed test cases, identifying and documenting software defects.
-- Collaborated with development teams to troubleshoot and resolve issues.
-- Utilized automated testing frameworks (such as Selenium) and bug tracking tools (e.g., JIRA).
-
-#### Technical Engineer
-Huawei Technologies South Africa
-- Orchestrated the delivery of customer infrastructure and software solutions, leading to heightened customer revenue and satisfaction.
-- Leveraged cloud computing platforms, AWS, Google Cloud Platform, CI/CD, and Docker for solution delivery.
-
-#### Assistant Network Engineer
-Huawei Technologies South Africa
-- Assisted in the setup and maintenance of network infrastructure.
-- Collaborated with senior engineers to troubleshoot network issues.
-
-#### Fintech Software Engineer
-Huawei Technologies South Africa
-- Developed secure payment gateways and transaction protocols for fintech applications.
-- Utilized C#, .Net, and REST API for software solution development.
-
-#### Digital Services Specialist
-Huawei Technologies South Africa
-- Led UI design for digital services, resulting in a 60% increase in user onboarding and retention.
-- Utilized HTML, CSS, JavaScript, React, Angular, and Adobe tools for UI/UX design.
-
-#### Software Engineer
-Zen 2 Chill | 01/2021 – 09/2021
-- Developed payment gateway, web applications, and websites for independent merchant companies.
-- Utilized Python, Django, HTML, CSS, JavaScript, SQL databases, and Bootstrap for development.
+During my tenure at Huawei Technologies, I had the opportunity to work on a diverse range
+of projects, honing my skills in software testing, technical engineering, network infrastructure,
+fintech solutions, and digital services. These experiences have not only expanded my technical
+skill set but also equipped me with valuable insights into project management, collaboration, and problem-solving.
 
 ### Education
 
-- **Bachelor of Computer Science**
-Wuhan University, China | 09/2016 – 07/2020
+I graduated from Wuhan University with a Bachelor's degree in Computer Science. Throughout
+my academic journey, I acquired a strong theoretical foundation in computer science principles,
+as well as practical experience through coursework and projects covering a wide range of topics
+including software development, databases, networking, and artificial intelligence.
 
 ### Projects
 
-- **PROP-Revs:** Developed a blockchain-based application focusing on Property Database & Fraud Prevention.
-- **Machine Learning:** Created a Streamlit & Python-based application for User Behavior & Sentiment Analysis.
+While at Huawei Technologies and beyond, I have worked on several projects ranging from
+blockchain-based applications to machine learning solutions. Each project has presented
+unique challenges and opportunities for learning, allowing me to grow as a software engineer
+and contribute meaningfully to the development community.
 
 ### Contact
 
-- Phone: +27 67 975 4882
+Feel free to reach out to me via email or connect with me on LinkedIn:
+
 - Email: mpethamotaung@gmail.com
 - LinkedIn: [mpetha-motaung](www.linkedin.com/in/mpetha-motaung/)
 
-Thank you for visiting my portfolio! Feel free to explore my projects and reach out to me for any inquiries or collaborations.
+Thank you for visiting my GitHub portfolio! I look forward to sharing my projects and
+experiences with you.
 ```
-
-Feel free to customize the README further according to your preferences. This template provides a structured overview of your skills, experience, education, projects, and contact information.
