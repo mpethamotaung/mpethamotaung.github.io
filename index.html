@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mpetha Motaung - Portfolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -37,16 +38,18 @@
         </div>
     </nav>
 
-     <!-- Header -->
+
+
+    <!-- Header -->
     <header id="home" class="header d-flex align-items-center justify-content-center text-center">
-        <div class="overlay"></div>
-        <div class="content">
-            <h1 class="display-4 font-weight-bold">Mpetha S. Motaung</h1>
-            <p class="lead">Software Engineer</p>
+        <div class="container mt-5 pt-5">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1 class="display-4 font-weight-bold">Mpetha S. Motaung</h1>
+                <p class="lead">Software Engineer</p>
+            </div>
         </div>
     </header>
-
-
 
     <!-- Projects Section -->
     <section id="projects" class="container my-5">
@@ -59,9 +62,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Financial Statistics</h5>
-                        <p class="card-text">This web application accepts user information and displays
-                            a temporal graph of the user's finances. It is built with Python, Django, and Sqlite3.
-                        </p>
+                        <p class="card-text">This web application accepts user information and displays a temporal graph of the user's finances. It is built with Python, Django, and Sqlite3.</p>
                         <a href="https://github.com/mpethamotaung/DataSciences" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
@@ -73,8 +74,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Banking System</h5>
-                        <p class="card-text">This Java program simulates a basic banking system with functionalities 
-                            such as account management, transactions, and balance inquiries.</p>
+                        <p class="card-text">This Java program simulates a basic banking system with functionalities such as account management, transactions, and balance inquiries.</p>
                         <a href="https://github.com/mpethamotaung/WallBank-BankingSystem" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
@@ -86,9 +86,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Food Service Website</h5>
-                        <p class="card-text">This website simulates a basic food website. Customers
-                            can explore, order delicious meals.
-                            It is built using HTML, CSS, and a touch of JavaScript.</p>
+                        <p class="card-text">This website simulates a basic food website. Customers can explore, order delicious meals. It is built using HTML, CSS, and a touch of JavaScript.</p>
                         <a href="https://github.com/mpethamotaung/yeats" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
@@ -99,12 +97,7 @@
     <!-- About Me Section -->
     <section id="about" class="container my-5">
         <h2>About Me</h2>
-        <p>Innovative and results-driven Software Engineer with a proven track record of success in full-stack 
-            development, digital services, and software testing. Proficient in a wide range of programming languages 
-            and technologies, including C#, Python, JavaScript, and cloud computing platforms. Experienced in 
-            leading cross-functional teams, driving process improvements, and delivering high-quality solutions. 
-            Seeking to leverage expertise in software engineering to contribute to the success of a dynamic 
-            organization.</p>
+        <p>Innovative and results-driven Software Engineer with a proven track record of success in full-stack development, digital services, and software testing. Proficient in a wide range of programming languages and technologies, including C#, Python, JavaScript, and cloud computing platforms. Experienced in leading cross-functional teams, driving process improvements, and delivering high-quality solutions. Seeking to leverage expertise in software engineering to contribute to the success of a dynamic organization.</p>
     </section>
 
     <!-- Contact Section -->
@@ -128,7 +121,9 @@
     </section>
 
     <!-- Scroll to Top Button -->
-    <button id="scrollTopBtn" class="btn btn-primary" onclick="scrollToTop()">Top</button>
+    <button id="scrollTopBtn" class="btn btn-primary" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
