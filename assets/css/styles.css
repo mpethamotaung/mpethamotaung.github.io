@@ -1,6 +1,6 @@
 /* assets/css/styles.css */
 
-/* Transparent navbar */
+/*  navbar */
 .navbar {
     transition: background-color 0.3s ease;
 }
@@ -21,7 +21,6 @@
     height: 100%;
     object-fit: cover; /* Ensures the image covers the entire container while maintaining aspect ratio */
 }
-
 
 
 /* Scroll to Top Button */
