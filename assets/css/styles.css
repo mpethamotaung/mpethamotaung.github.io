@@ -28,7 +28,15 @@ body {
     height: 50px;
     border-radius: 60%;
     margin-right: 15px;
-    border: 3px solid #0072b1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.profile-pic:hover {
+    transform: scale(1.2);
+}
+
+.profile h1 {
+    font-size: 18px;
 }
 
 .nav-links {
@@ -38,6 +46,10 @@ body {
 
 .nav-links li {
     margin-left: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 20px;
 }
 
 .nav-links a {
