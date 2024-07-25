@@ -222,3 +222,10 @@ body {
 }
 
 /*About me Styling*/
+.about {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
