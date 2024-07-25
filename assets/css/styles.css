@@ -338,4 +338,8 @@ body {
     color: #fff;
 }
 
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
 
