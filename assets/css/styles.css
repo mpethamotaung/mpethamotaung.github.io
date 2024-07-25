@@ -222,10 +222,12 @@ body {
 }
 
 /*About me Styling*/
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .about {
-    background-color: #fff;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #f9f9f9;
 }
