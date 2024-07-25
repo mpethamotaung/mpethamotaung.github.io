@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e9e5df;
 }
 
 .navbar {
@@ -115,10 +116,22 @@ body {
 
     .hamburger {
         display: flex;
-        border: 1px solid #000;
+        border: 1px solid #333;
         border-radius: 6px;
         padding: 4px;
     }
     
 }
 
+/*Hero Section*/
+.hero {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    padding: 0 20px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: #fdfaf5;
+}
