@@ -181,7 +181,8 @@ body {
 
 .hero-image img {
     max-width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 300px;
     height: 300px;
 }
@@ -221,3 +222,86 @@ body {
 }
 
 /*About me Styling*/
+.about-container {
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
+.about {
+    background: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-text {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.name {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 250px;
+}
+
+@media (min-width: 768px) {
+    .about-content {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-text {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .about-image {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-text h2 {
+        font-size: 2em;
+    }
+
+    .about-text p {
+        font-size: 1em;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: 200px;
+    }
+}
