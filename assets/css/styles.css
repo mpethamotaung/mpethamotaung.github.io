@@ -275,3 +275,23 @@ body {
     background-color: #f4f4f4;
 }
 
+.projects {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #0072b1
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
