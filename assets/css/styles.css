@@ -340,6 +340,7 @@ body {
 
 .project-card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,144,177, 0.3);
 }
 
 @media (max-width: 768px) {
