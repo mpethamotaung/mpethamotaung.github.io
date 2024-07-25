@@ -266,3 +266,12 @@ body {
         font-size: 1em;
     }
 }
+
+/*Projects Styles*/
+.projects-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #f4f4f4;
+}
+
