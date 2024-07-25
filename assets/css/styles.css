@@ -124,7 +124,7 @@ body {
 }
 
 /*Hero Styling*/
-.container {
+.hero-container {
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -165,6 +165,7 @@ body {
     border-radius: 6px;
     font-size: 1rem;
     transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .cta-button:hover {
@@ -218,3 +219,5 @@ body {
         font-size: 0.9em;
     }
 }
+
+/*About me Styling*/
