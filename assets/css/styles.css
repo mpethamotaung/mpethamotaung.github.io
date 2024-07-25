@@ -310,4 +310,16 @@ body {
     object-fit: cover;
 }
 
+.project-card h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #000;
+}
+
+.project-card p {
+    font-size: 1em;
+    padding: 0 20px;
+    line-height: 1.2;
+}
+
 
