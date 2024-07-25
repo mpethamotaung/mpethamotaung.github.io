@@ -144,3 +144,8 @@ body {
     max-height: 50vh;
     object-fit:cover;
 }
+
+.hero-content{
+    max-width: 600px;
+    padding: 20px;
+}
