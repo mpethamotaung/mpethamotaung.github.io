@@ -148,7 +148,7 @@ body {
 }
 
 .hero-content .name {
-    color: #3498db;
+    color: #0072b1;
 }
 
 .hero-content .description {
@@ -159,11 +159,17 @@ body {
 
 .cta-button {
     padding: 10px 20px;
-    background: #3498db;
-    color: #fff;
+    background: #fff;
+    color: #0072b1;
     text-decoration: none;
     border-radius: 6px;
     font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #0072b1;
+    color: #fff;
 }
 
 .hero-image {
