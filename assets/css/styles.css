@@ -138,4 +138,43 @@ body {
     padding: 60px 0;
 }
 
-.hero-content ()
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero-content .name {
+    color: #3498db;
+}
+
+.hero-content .description {
+    font-size: 1.2em;
+    margin: 0 0 30px;
+    color: #333;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
