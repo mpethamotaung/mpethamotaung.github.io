@@ -342,4 +342,24 @@ body {
     transform: translateY(-10px);
 }
 
+@media (max-width: 768px) {
+    .projects-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
+@media (max-width: 480px) {
+    .projects h2 {
+        font-size: 2em;
+    }
+
+    .project-card h3 {
+        font-size: 1.2em;
+    }
+
+    .project-card p {
+        font-size: 0.9em;
+    }
+
+}
