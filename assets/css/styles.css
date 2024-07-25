@@ -272,11 +272,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: #f4f4f4;
 }
 
 .projects {
-    background: #f9f9f9;
+    background: #f4f4f4;
     padding: 60px 20px;
     text-align: center;
 }
