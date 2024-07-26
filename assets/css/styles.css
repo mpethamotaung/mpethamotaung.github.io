@@ -398,3 +398,11 @@ body {
     width: 2px;
     background-color: #333;
 }
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 60px;
+}
