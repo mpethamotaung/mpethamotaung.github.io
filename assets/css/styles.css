@@ -456,3 +456,21 @@ body {
 .sub-positions {
     margin-top: 6px;
 }
+
+@media (max-width:768px){
+    .container {
+        padding: 0 10px;
+    }
+
+    .timeline-item {
+        padding-left: 40px;
+    }
+
+    .timeline-dot {
+        left: 20px;
+    }
+
+    .timeline-content{
+        width: calc(100% - 40px);
+    }
+}
