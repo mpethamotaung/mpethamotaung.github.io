@@ -366,19 +366,25 @@ body {
 }
 
 /*Experience Styles*/
-.exp-container {
+.exp-container, .education-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.experience {
+.education {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.experience  {
     background-color: #f9f9f9;
     padding: 60px 20px;
     text-align: center;
 }
 
-.experience h2 {
+.experience h2, .education h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
     color: #0072b1;
