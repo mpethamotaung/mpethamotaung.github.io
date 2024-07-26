@@ -381,7 +381,7 @@ body {
 .experience h2 {
     font-size: 2.5em;
     margin-bottom: 40px;
-    color: #0072b1
+    color: #333;
 }
 
 .timeline {
@@ -396,7 +396,7 @@ body {
     bottom: 0;
     left: 30px;
     width: 2px;
-    background-color: #333;
+    background: #333;
 }
 
 .timeline-item {
@@ -405,4 +405,65 @@ body {
     margin-bottom: 40px;
     position: relative;
     padding-left: 60px;
+}
+
+.timeline-dot {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 60px);
+    text-align: left;
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.timeline h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #333;
+}
+
+.timeline h4 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #777;
+}
+
+.timeline p {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .timeline-item {
+        padding-left: 40px;
+    }
+
+    .timeline-dot {
+        left: 20px;
+    }
+
+    .timeline-content {
+        width: calc(100% - 40px);
+    }
 }
