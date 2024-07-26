@@ -432,3 +432,8 @@ body {
     margin-bottom: 5px;
 }
 
+.timeline h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #0072b1;
+}
