@@ -366,3 +366,20 @@ body {
 }
 
 /*Experience Styles*/
+.exp-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.experience {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 2.5em;
+    margin-bottom: 9px;
+    color: #0072b1;
+}
