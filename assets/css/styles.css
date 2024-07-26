@@ -383,3 +383,18 @@ body {
     margin-bottom: 30px;
     color: #0072b1;
 }
+
+.timeline {
+    position: relative;
+    margin-top: 20px;
+}
+
+.timeline::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background: #333;
+}
