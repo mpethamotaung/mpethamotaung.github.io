@@ -417,5 +417,15 @@ body {
     top:5px;
 }
 
+.timeline-content {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: calc(100% - 40px);
+    text-align: left;
+
+}
+
 
 
