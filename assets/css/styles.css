@@ -437,3 +437,9 @@ body {
     margin: 5px 0;
     color: #0072b1;
 }
+
+.timeline h4 {
+    font-size: 1em;
+    margin-bottom: 6px;
+    color: #777;
+}
