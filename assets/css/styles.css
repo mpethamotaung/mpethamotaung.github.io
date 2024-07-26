@@ -424,8 +424,11 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: calc(100% - 40px);
     text-align: left;
-
 }
 
-
+.timeline-date {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
 
