@@ -413,8 +413,8 @@ body {
     background: #333;
     border-radius: 50%;
     position: absolute;
-    left: 15px;
-    top:5px;
+    left: 16px;
+    top:15px;
 }
 
 .timeline-content {
