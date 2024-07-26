@@ -383,3 +383,40 @@ body {
     margin-bottom: 9px;
     color: #0072b1;
 }
+
+.timeline {
+    position: relative;
+    margin-top: 20px;
+}
+
+.timeline::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    width: 2px;
+    background: #333;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 60px;
+    opacity: 0;
+    transform:translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+.timeline-dot {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top:50%;
+    transform: translateY(-50%);
+}
