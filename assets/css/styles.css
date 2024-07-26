@@ -371,3 +371,9 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.experience {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
