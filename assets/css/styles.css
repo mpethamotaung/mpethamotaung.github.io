@@ -463,6 +463,10 @@ body {
     margin-top: 6px;
 }
 
+.relevant-coursework {
+    margin-top: 6px;
+}
+
 @media (max-width:768px){
     .container {
         padding: 0 10px;
