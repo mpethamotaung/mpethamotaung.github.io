@@ -521,3 +521,17 @@ body {
     margin: 6px;
 }
 
+@media (max-width: 768px){
+    .skills-container{
+        padding: 0 10px;
+    }
+
+    .skills h2 {
+        font-size: 2em;
+    }
+
+    .skill-item {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
