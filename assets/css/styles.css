@@ -484,3 +484,10 @@ body {
         width: calc(100% - 40px);
     }
 }
+
+/*Skills styles*/
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
