@@ -505,7 +505,19 @@ body {
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
+
+.skill-item {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-size: 1.2em;
+    color: #333;
+    margin: 6px;
+}
+
