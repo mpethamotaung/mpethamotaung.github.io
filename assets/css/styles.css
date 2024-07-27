@@ -497,3 +497,9 @@ body {
     padding: 60px 20px;
     text-align: center;
 }
+
+.skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #0072b1;
+}
