@@ -236,9 +236,40 @@
             </section>
             <!--Blog-->
             <!--Contact Me/ Download Resume-->
-            <section class="contact" id="contact">
-                <div class="contact-container">
+            <section class="contact">
+                <div class="container">
                     <h2>Contact Me</h2>
+                    <div class="contact-content">
+                        <div class="contact-left">
+                            <div class="content-center">
+                                <p>If you would like to get in touch, feel free to reach out via email or download my resume below.</p>
+                                <a href="path/to/your/resume.pdf" class="btn-download" download>
+                                    <i class="fas fa-download"></i> Download Resume
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form action="mailto:mpethamotaung@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message:</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn-submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> mpethamotaung@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +27 67 975 4882</p>
+                    </div>
                 </div>
             </section>
             <!--Testimonials-->
