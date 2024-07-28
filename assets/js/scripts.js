@@ -1,32 +1,35 @@
-// assets/js/scripts.js
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
 
-// Scroll to Top Button Script
-var mybutton = document.getElementById("scrollTopBtn");
-var navbar = document.querySelector(".navbar");
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
 
-// When the user scrolls down 20px from the top of the document, show the button and change navbar style
-window.onscroll = function() {
-    scrollFunction();
-    handleNavbarTransparency();
-};
+// Mobile Navigation Toggle
+const navToggle = document.getElementById('nav-toggle');
+const navMenu = document.getElementById('nav-menu');
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
+navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('visible');
+});
 
-// When the user clicks on the button, scroll to the top of the document
-function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+// Smooth Scrolling
+const links = document.querySelectorAll('a[href^="#"]');
 
-function handleNavbarTransparency() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        navbar.classList.add("navbar-scrolled");
-    } else {
-        navbar.classList.remove("navbar-scrolled");
-    }
-}
+    for (const link of links) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    };
