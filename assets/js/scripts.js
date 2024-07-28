@@ -1,23 +1,32 @@
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
+    const backToTopButton = document.querySelector('.back-to-top');
+    const links = document.querySelectorAll('a[href^="#"]');
 
+    // Toggle navigation menu on hamburger click
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
     });
-});
 
-// Mobile Navigation Toggle
-const navToggle = document.getElementById('nav-toggle');
-const navMenu = document.getElementById('nav-menu');
+    // Show or hide back to top button
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopButton.classList.add('visible');
+        } else {
+            backToTopButton.classList.remove('visible');
+        }
+    });
 
-navToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('visible');
-});
+    // Scroll to top on back to top button click
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
 
-// Smooth Scrolling
-const links = document.querySelectorAll('a[href^="#"]');
-
+    // Smooth scrolling
     for (const link of links) {
         link.addEventListener('click', function (e) {
             e.preventDefault();
@@ -31,5 +40,9 @@ const links = document.querySelectorAll('a[href^="#"]');
                     behavior: 'smooth'
                 });
             }
+
+            // Close the mobile navigation menu after clicking a link
+            navLinks.classList.remove('active');
         });
-    };
+    }
+});

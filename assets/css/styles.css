@@ -19,6 +19,7 @@ body {
     background-color: white;
     color: black;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
 }
 
 .profile {
@@ -53,6 +54,7 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
+    gap: 20px;
 }
 
 .nav-links li {
@@ -98,9 +100,14 @@ body {
 @media (max-width: 768px){
 
     .nav-links {
+        display: none;
         flex-direction: column;
         width: 100%;
-        display: none;
+        background-color: #0072b1;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 10px 0;
     }
 
     .nav-links.active {
@@ -108,6 +115,8 @@ body {
     }
 
     .nav-links li {
+        text-align: center;
+        padding: 10px 0;
         margin: 5px 0;
     }
 
@@ -799,3 +808,5 @@ body {
         font-size: 1em;
     }
 }
+
+/*Scroll Back to Top button*/
