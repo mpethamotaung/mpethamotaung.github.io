@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 *{
     margin: 0;
     padding: 0;
@@ -552,7 +552,7 @@ body {
 .contact {
     background: #f9f9f9;
     padding: 60px 20px;
-=======
+    
 /* Reset some default styles */
 * {
     margin: 0;
@@ -844,7 +844,7 @@ nav ul li a {
 .footer {
     background: #fff;
     color: #333;
-=======
+
     margin-bottom: 40px;
     font-size: 32px;
 }
@@ -882,12 +882,12 @@ nav ul li a {
 footer {
     background: #333;
     color: #fff;
->>>>>>> Stashed changes
+
     padding: 20px 0;
     text-align: center;
 }
 
-<<<<<<< Updated upstream
+
 .footer p {
     margin: 0;
     font-size: 1em;
@@ -897,7 +897,7 @@ footer {
     list-style: none;
     padding: 0;
     margin: 10px 0 0 0;
-=======
+
 footer p {
     margin-bottom: 10px;
 }
@@ -905,12 +905,12 @@ footer p {
 .social-links {
     list-style: none;
     padding: 0;
->>>>>>> Stashed changes
+
     display: flex;
     justify-content: center;
 }
 
-<<<<<<< Updated upstream
+
 .footer .social-links li {
     margin: 0 10px;
 }
@@ -925,7 +925,7 @@ footer p {
 .footer .social-links a:hover {
     color: #3498db;
 }
-=======
+
 .social-links li {
     margin: 0 10px;
 }
@@ -934,4 +934,4 @@ footer p {
     color: #fff;
     text-decoration: none;
 }
->>>>>>> Stashed changes
+
