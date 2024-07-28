@@ -79,10 +79,10 @@ body {
 .hamburger {
     display: none;
     flex-direction: column;
-    justify-content: space-around;
-    height: 24px;
-    width: 30px;
-    background:none;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    background: none;
     border: none;
     cursor: pointer;
 }
