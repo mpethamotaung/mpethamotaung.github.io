@@ -576,14 +576,18 @@ body {
     align-items: stretch;
 }
 
-.contact-left,
+.contact-left {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .contact-right {
     flex: 1;
     min-width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    padding: 30px;
+
 }
 
 .contact-left {
@@ -595,7 +599,18 @@ body {
 
 }
 
+.contact-right {
+    background-color: #fff;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 .contact-left .content-center {
+    padding: 20px;
+}
+
+.contact-item {
     padding: 20px;
 }
 
@@ -603,6 +618,10 @@ body {
     font-size: 1.2em;
     margin-bottom: 20px;
     color: #fff;
+}
+
+.contact-info {
+    font-size: 16px;
 }
 
 .btn-download {
@@ -628,10 +647,15 @@ body {
     font-size: 1.2em;
 }
 
+.contact-item i{
+    margin-right: 10px;
+    color: #0072b1;
+}
+
 
 
 @media (max-width: 768px) {
-    .container {
+    .contact-container {
         padding: 0 10px;
     }
 
