@@ -661,6 +661,9 @@ body {
     .contact-right, .contact-left {
         border-radius: 15px;
     }
+    .contact-right {
+        margin-top: 15px;
+    }
 }
 /* Footer */
 .footer {
