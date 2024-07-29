@@ -656,43 +656,12 @@ body {
 
 @media (max-width: 768px) {
     .contact-container {
-        padding: 0 10px;
-    }
-
-    .contact h2 {
-        font-size: 2em;
-    }
-
-    .contact-left {
-        border-radius: 15px;
-    }
-
-    .contact-left p {
-        font-size: 1em;
-    }
-
-    .btn-download {
-        font-size: 1em;
-    }
-
-    .btn-download i {
-        font-size: 1em;
-    }
-
-    .contact-content {
         flex-direction: column;
     }
-
-    .contact-left,
-    .contact-right {
-        padding: 10px;
-    }
-
-    .contact-info p {
-        font-size: 1em;
+    .contact-right, .contact-left {
+        border-radius: 15px;
     }
 }
-
 /* Footer */
 .footer {
     background: #fff;
