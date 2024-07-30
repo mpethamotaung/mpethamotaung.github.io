@@ -1,7 +1,8 @@
-// Navbar Toggle Menu
+
 const navbarToggler = document.querySelector(".navbar-toggler");
 const navLinks = document.querySelector(".nav-links");
 const navItems = navLinks.querySelectorAll("li a");
+const backToTopButton = document.querySelector(".back-to-top");
 
 navbarToggler.addEventListener("click", mobileMenu);
 
@@ -30,3 +31,20 @@ function closeMenu() {
     navbarToggler.classList.remove("active");
     navLinks.classList.remove("active");
 }
+
+//Show or hide the back-to-top button based on scroll position
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 300) {
+        backToTopButton.classList.add("visible");
+    }else {
+        backToTopButton.classList.remove("visible");
+    }
+});
+
+//Scroll smoothly back to top when the button is clicked
+backToTopButton.addEventListener("click", () => {
+    window.scrollTo({
+        top:0,
+        behavior: "smooth"
+    });
+});

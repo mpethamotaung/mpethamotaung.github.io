@@ -746,3 +746,32 @@ body {
         font-size: 1em;
     }
 }
+
+/*Back to Top Button styles*/
+.back-to-top {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 50%;
+    background-color: #0072b1;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top.visible {
+    display: flex;
+}
+
+.back-to-top i {
+    margin-top: -2px;
+}
