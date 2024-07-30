@@ -1,6 +1,7 @@
 //Navbar Toggle Menu
 const navbarToggler = document.querySelector(".navbar-toggler");
 const navLinks = document.querySelector(".nav-links");
+const navItems = navLinks.querySelectorAll("li a");
 
 navbarToggler.addEventListener("click", mobileMenu);
 
@@ -10,10 +11,10 @@ function mobileMenu() {
 }
 
 //Close Navbar Toggle Menu
-navLinks.forEach(n=> n.addEventListener("click", closeMenu));
+navItems.forEach(link => link.addEventListener("click", closeMenu));
 
-function closeMenu() {
+function closeMenu(){
     navbarToggler.classList.remove("active");
-    navLinks.classList.remove("acitve");
+    navLinks.classList.remove("active");
 }
 
