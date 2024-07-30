@@ -750,7 +750,7 @@ body {
 /*Back to Top Button styles*/
 .back-to-top {
     position: fixed;
-    bottom: 90px;
+    bottom: 30px;
     right: 20px;
     width: 45px;
     height: 45px;
@@ -774,4 +774,10 @@ body {
 
 .back-to-top i {
     margin-top: -2px;
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 90px;
+    }
 }
