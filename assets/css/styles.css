@@ -135,12 +135,19 @@ body {
 }
 
 .hero {
-    background-color: #f4f4f4;
+    background-image: url(/assets/images/iceberg.png);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 60px 0;
+    min-height: 400px;
 }
 
 .hero-content {
     flex: 1;
+
 }
 
 .hero-content h1 {
@@ -276,7 +283,12 @@ body {
 }
 
 .projects {
-    background: #f4f4f4;
+    background-image: url(/assets/images/iceberg.png);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 60px 20px;
     text-align: center;
 }
@@ -493,7 +505,12 @@ body {
 }
 
 .skills {
-    background: #f9f9f9;
+    background-image: url(/assets/images/iceberg.png);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 60px 20px;
     text-align: center;
 }
@@ -549,7 +566,12 @@ body {
 }
 
 .contact {
-    background: #f9f9f9;
+    background-image: url(/assets/images/iceberg.png);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 60px 20px;
 }
 
