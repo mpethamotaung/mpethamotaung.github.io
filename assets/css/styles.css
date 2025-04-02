@@ -201,6 +201,15 @@ body {
         text-align: center;
     }
     
+    .hero{
+        background-image: url(/assets/images/iceberg.png);
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
     .hero-content h1 {
         font-size: 2.5em;
     }
@@ -365,6 +374,15 @@ body {
 @media (max-width: 480px) {
     .projects h2 {
         font-size: 2em;
+    }
+
+    .projects {
+        background-image: url(/assets/images/iceberg.png);
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .project-card h3 {
@@ -548,6 +566,15 @@ body {
         padding: 0 10px;
     }
 
+    .skills {
+        background-image: url(/assets/images/iceberg.png);
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
     .skills h2 {
         font-size: 2em;
     }
@@ -680,6 +707,16 @@ body {
     .contact-container {
         flex-direction: column;
     }
+
+    .contact {
+        background-image: url(/assets/images/iceberg.png);
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
     .contact-right, .contact-left {
         border-radius: 15px;
     }
