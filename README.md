@@ -1,4 +1,4 @@
-```markdown
+
 # Mpetha S. Motaung
 
 ## Software Engineer | Wuhan University Graduate | 2 Years of Experience at Huawei Technologies
@@ -47,4 +47,3 @@ Feel free to reach out to me via email or connect with me on LinkedIn:
 
 Thank you for visiting my GitHub portfolio! I look forward to sharing my projects and
 experiences with you.
-```
