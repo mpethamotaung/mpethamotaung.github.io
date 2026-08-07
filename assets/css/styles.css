@@ -184,9 +184,13 @@ body {
 .hero-content h1 {
     font-size: var(--font-xxxxl);
     margin: 0 0 var(--spacing-lg);
-    color: var(--text-dark);
+    color: #212226;
 }
 
+.hero-content a {
+    display: inline-block;
+    margin-top: var(--spacing-lg);
+}
 .hero-content .name {
     color: var(--primary-color);
 }
