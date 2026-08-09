@@ -20,6 +20,7 @@
     --shadow-color: rgba(0, 0, 0, 0.3);
     --shadow-hover: rgba(0, 114, 177, 0.3);
     --border-color: #0072b1;
+    --buttons-color: #F2B138;
     
     /* Sizing */
     --border-radius: 9px;
@@ -112,8 +113,9 @@ body {
 }
 
 .nav-links a:hover {
-    background-color: var(--primary-color);
-    color: var(--text-white);
+    background-color: var(--buttons-color);
+    color: var(--bg-dark);
+    font-weight: bold;
 }
 
 .navbar-toggler {
@@ -208,17 +210,18 @@ body {
 
 .cta-button {
     padding: var(--spacing-md) var(--spacing-lg);
-    background: var(--primary-color);
-    color: var(--text-dark);
+    background: var(--buttons-color);
+    color: var(--bg-dark);
     text-decoration: none;
     border-radius: 6px;
     font-size: 1rem;
     transition: background-color var(--transition-normal) ease;
     box-shadow: 0 4px 8px var(--shadow-color);
+    font-weight: bold;
 }
 
 .cta-button:hover {
-    background: var(--primary-dark);
+    background: var(--bg-dark);
     color: var(--text-white);
 }
 
@@ -305,7 +308,7 @@ body {
 .about-text h2 {
     font-size: var(--font-xxxl);
     margin-bottom: var(--spacing-lg);
-    color: var(--primary-color);
+    color: var(--buttons-color);
 }
 
 .about-text p {
@@ -389,21 +392,22 @@ body {
     display: block;
     margin: var(--spacing-lg);
     padding: var(--spacing-md) 6px;
-    color: var(--primary-color);
+    color: var(--white);
     text-decoration: none;
     border-radius: var(--border-radius);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--buttons-color);
     transition: background var(--transition-normal) ease-out;
 }
 
 .project-link:hover {
-    background: var(--primary-color);
-    color: var(--text-dark);
+    background: var(--buttons-color);
+    color: var(--bg-dark);
 }
 
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px var(--shadow-hover);
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -459,7 +463,7 @@ body {
 .education h2 {
     font-size: var(--font-xxxl);
     margin-bottom: var(--spacing-xl);
-    color: var(--primary-color);
+    color: var(--buttons-color);
 }
 
 .timeline {
@@ -488,7 +492,7 @@ body {
 .timeline-dot {
     width: 10px;
     height: 10px;
-    background: var(--primary-color);
+    background: var(--buttons-color);
     border-radius: var(--border-radius-full);
     position: absolute;
     left: 16px;
@@ -513,7 +517,7 @@ body {
 .timeline h3 {
     font-size: var(--font-lg);
     margin: var(--spacing-sm) 0;
-    color: var(--primary-color);
+    color: var(--buttons-color);
 }
 
 .timeline h4 {
@@ -601,6 +605,9 @@ body {
 }
 
 .skill-item:hover {
+    background: var(--buttons-color);
+    color: var(--bg-dark);
+    font-weight: bold;
     box-shadow: 0 0 8px var(--primary-color);
     transform: translate(0%, -9%);
 }
@@ -672,8 +679,8 @@ body {
 }
 
 .contact-left {
-    background: var(--primary-color);
-    color: var(--text-dark);
+    background: var(--buttons-color);
+    color: var(--bg-dark);
     text-align: center;
     border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
     box-shadow: 0 4px 8px var(--shadow-color);
@@ -697,7 +704,7 @@ body {
 .contact-left p {
     font-size: var(--font-lg);
     margin-bottom: var(--spacing-lg);
-    color: var(--text-dark);
+    color: var(--bg-dark);
 }
 
 .contact-info {
@@ -705,14 +712,15 @@ body {
 }
 
 .contact-info p {
-    color: var(--text-dark);
+    color: var(--bg-dark);
+    font-weight: bold;
 }
 
 .btn-download {
     display: inline-flex;
     align-items: center;
     background: var(--bg-dark);
-    color: var(--primary-color);
+    color: var(--buttons-color);
     padding: var(--spacing-md) var(--spacing-lg);
     border-radius: 8px;
     text-decoration: none;
@@ -722,8 +730,9 @@ body {
 }
 
 .btn-download:hover {
-    background: var(--primary-color);
-    color: var(--text-dark);
+    background: var(--buttons-color);
+    color: var(--bg-dark);
+    border: 1px solid var(--bg-dark);
 }
 
 .btn-download i {
@@ -733,7 +742,12 @@ body {
 
 .contact-item i {
     margin-right: var(--spacing-md);
-    color: var(--primary-color);
+    color: var(--buttons-color);
+}
+
+.contact-item i:hover {
+    transition:all 0.3s ease-in-out;
+    scale: 1.5;
 }
 
 .contact-item a {
@@ -745,6 +759,8 @@ body {
 .contact-item a:hover {
     color: var(--primary-color);
 }
+
+
 
 @media (max-width: 768px) {
     .contact-container {
@@ -860,8 +876,8 @@ body {
     justify-content: center;
     border: none;
     border-radius: var(--border-radius-full);
-    background-color: var(--primary-color);
-    color: var(--text-dark);
+    background-color: var(--buttons-color);
+    color: var(--bg-dark);
     cursor: pointer;
     font-size: 24px;
     opacity: 1;
