@@ -1,8 +1,8 @@
 :root {
     /* Primary Colors */
-    --primary-color: #0072b1;
-    --primary-dark: #005a8c;
-    --primary-light: #4a9fd8;
+    --primary-color: #81D959;
+    --primary-dark: #365925;
+    --primary-light: #63A644;
     
     /* Background Colors */
     --bg-dark: #212226;
@@ -20,7 +20,6 @@
     --shadow-color: rgba(0, 0, 0, 0.3);
     --shadow-hover: rgba(0, 114, 177, 0.3);
     --border-color: #0072b1;
-    --buttons-color: #F2B138;
     
     /* Sizing */
     --border-radius: 9px;
@@ -109,13 +108,14 @@ body {
     text-decoration: none;
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--border-radius-pill);
-    transition: background-color var(--transition-normal) ease;
+    transition: background-color var(--transition-normal) ease-in-out, color var(--transition-normal) ease-in-out;
 }
 
 .nav-links a:hover {
-    background-color: var(--buttons-color);
+    background-color: var(--primary-color);
     color: var(--bg-dark);
     font-weight: bold;
+    padding: 8px 16px;
 }
 
 .navbar-toggler {
@@ -210,7 +210,7 @@ body {
 
 .cta-button {
     padding: var(--spacing-md) var(--spacing-lg);
-    background: var(--buttons-color);
+    background: var(--primary-color);
     color: var(--bg-dark);
     text-decoration: none;
     border-radius: 6px;
@@ -308,7 +308,7 @@ body {
 .about-text h2 {
     font-size: var(--font-xxxl);
     margin-bottom: var(--spacing-lg);
-    color: var(--buttons-color);
+    color: var(--primary-color);
 }
 
 .about-text p {
@@ -360,9 +360,12 @@ body {
 }
 
 .project-card {
-    background-color: var(--bg-white);
-    border-radius: var(--border-radius-lg);
-    box-shadow: 0 4px 8px var(--shadow-color);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     overflow: hidden;
     transition: transform var(--transition-fast);
     width: 100%;
@@ -378,30 +381,32 @@ body {
 .project-card h3 {
     font-size: var(--font-xl);
     margin: var(--spacing-lg) 0;
-    color: var(--text-dark);
+    color: var(--bg-dark);
 }
 
 .project-card p {
     font-size: var(--font-md);
     padding: 0 var(--spacing-lg);
     line-height: 1.2;
-    color: var(--text-light);
+    color: var(--bg-dark);
 }
 
 .project-link {
     display: block;
     margin: var(--spacing-lg);
     padding: var(--spacing-md) 6px;
-    color: var(--white);
+    color: var(--bg-dark);
     text-decoration: none;
     border-radius: var(--border-radius);
-    border: 1px solid var(--buttons-color);
+    border: 3px solid var(--primary-dark);
     transition: background var(--transition-normal) ease-out;
 }
 
 .project-link:hover {
-    background: var(--buttons-color);
+    background: var(--primary-light);
     color: var(--bg-dark);
+    box-shadow: 0 0 8px var(--primary-color);
+    border: none;
 }
 
 .project-card:hover {
@@ -463,7 +468,7 @@ body {
 .education h2 {
     font-size: var(--font-xxxl);
     margin-bottom: var(--spacing-xl);
-    color: var(--buttons-color);
+    color: var(--primary-color);
 }
 
 .timeline {
@@ -492,7 +497,7 @@ body {
 .timeline-dot {
     width: 10px;
     height: 10px;
-    background: var(--buttons-color);
+    background: var(--primary-color);
     border-radius: var(--border-radius-full);
     position: absolute;
     left: 16px;
@@ -517,13 +522,13 @@ body {
 .timeline h3 {
     font-size: var(--font-lg);
     margin: var(--spacing-sm) 0;
-    color: var(--buttons-color);
+    color: var(--primary-color);
 }
 
 .timeline h4 {
     font-size: var(--font-md);
     margin-bottom: 6px;
-    color: var(--text-light);
+    color: var(--primary-light);
 }
 
 .timeline p {
@@ -605,7 +610,7 @@ body {
 }
 
 .skill-item:hover {
-    background: var(--buttons-color);
+    background: var(--primary-color);
     color: var(--bg-dark);
     font-weight: bold;
     box-shadow: 0 0 8px var(--primary-color);
@@ -679,7 +684,7 @@ body {
 }
 
 .contact-left {
-    background: var(--buttons-color);
+    background: var(--primary-color);
     color: var(--bg-dark);
     text-align: center;
     border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
@@ -720,7 +725,7 @@ body {
     display: inline-flex;
     align-items: center;
     background: var(--bg-dark);
-    color: var(--buttons-color);
+    color: var(--primary-color);
     padding: var(--spacing-md) var(--spacing-lg);
     border-radius: 8px;
     text-decoration: none;
@@ -730,9 +735,9 @@ body {
 }
 
 .btn-download:hover {
-    background: var(--buttons-color);
+    background: var(--primary-color);
     color: var(--bg-dark);
-    border: 1px solid var(--bg-dark);
+    box-shadow: 0 0 8px var(--primary-dark);
 }
 
 .btn-download i {
@@ -742,7 +747,7 @@ body {
 
 .contact-item i {
     margin-right: var(--spacing-md);
-    color: var(--buttons-color);
+    color: var(--primary-color);
 }
 
 .contact-item i:hover {
