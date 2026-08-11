@@ -174,7 +174,7 @@ body {
 }
 
 .hero {
-    background-image: url(/assets/images/iceberg.png);
+    background-image: url(/assets/images/clouds.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,16 +191,14 @@ body {
 .hero-content h1 {
     font-size: var(--font-xxxxl);
     margin: 0 0 var(--spacing-lg);
-    color: #212226;
+    color: var(--primary-color);
 }
 
 .hero-content a {
     display: inline-block;
     margin-top: var(--spacing-lg);
 }
-.hero-content .name {
-    color: var(--primary-color);
-}
+
 
 .hero-content .description {
     font-size: var(--font-lg);
@@ -246,7 +244,7 @@ body {
     }
 
     .hero {
-        background-image: url(/assets/images/iceberg.png);
+        background-image: url(/assets/images/clouds.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -428,7 +426,7 @@ body {
     }
 
     .projects {
-        background-image: url(/assets/images/iceberg.png);
+        background-image: url(/assets/images/clouds.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -576,7 +574,7 @@ body {
 }
 
 .skills {
-    background-image: url(/assets/images/iceberg.png);
+    background-image: url(/assets/images/clouds.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -623,7 +621,7 @@ body {
     }
 
     .skills {
-        background-image: url(/assets/images/iceberg.png);
+        background-image: url(/assets/images/clouds.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -648,7 +646,7 @@ body {
 }
 
 .contact {
-    background-image: url(/assets/images/iceberg.png);
+    background-image: url(/assets/images/clouds.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -773,7 +771,7 @@ body {
     }
 
     .contact {
-        background-image: url(/assets/images/iceberg.png);
+        background-image: url(/assets/images/clouds.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
