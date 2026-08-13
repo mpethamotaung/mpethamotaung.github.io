@@ -386,7 +386,7 @@ body {
     font-size: var(--font-md);
     padding: 0 var(--spacing-lg);
     line-height: 1.2;
-    color: var(--bg-dark);
+    color: black;
 }
 
 .project-link {
@@ -529,10 +529,15 @@ body {
     color: var(--primary-light);
 }
 
-.timeline p {
+.timeline p, ul {
     font-size: var(--font-sm);
-    line-height: 1.4;
     color: var(--text-light);
+    margin: 12px 0;
+}
+
+.timeline ul li {
+    margin: 4px 0px;
+    font-size: var(--font-md);
 }
 
 .bold {
