@@ -73,7 +73,7 @@ body {
     padding: var(--spacing-md) var(--spacing-lg);
     background-color: var(--bg-dark);
     color: var(--text-white);
-    box-shadow: 0 4px 8px var(--shadow-color);
+    box-shadow: 0 4px 8px var(--text-white);
     position: fixed;
     top: 0;
     left: 0;
@@ -884,7 +884,7 @@ body {
     justify-content: center;
     border: none;
     border-radius: var(--border-radius-full);
-    background-color: var(--buttons-color);
+    background-color: var(--primary-color);
     color: var(--bg-dark);
     cursor: pointer;
     font-size: 24px;
