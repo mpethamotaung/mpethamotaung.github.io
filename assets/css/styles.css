@@ -73,7 +73,7 @@ body {
     padding: var(--spacing-md) var(--spacing-lg);
     background-color: var(--bg-dark);
     color: var(--text-white);
-    box-shadow: 0 4px 8px var(--text-white);
+    box-shadow: 0 4px 8px var(--shadow-color);
     position: fixed;
     top: 0;
     left: 0;
