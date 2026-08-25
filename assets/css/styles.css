@@ -571,6 +571,9 @@ body {
     }
 }
 
+
+
+
 /* Skills styles */
 .skills-container {
     max-width: 1200px;
@@ -641,6 +644,29 @@ body {
         font-size: var(--font-md);
         padding: var(--spacing-md) var(--spacing-lg);
     }
+}
+
+/* certificates Styles */
+.certificates-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
+
+.certificates {
+    background-color: var(--bg-gray);
+    padding: var(--spacing-xxxl) var(--spacing-lg);
+    text-align: center;
+}
+
+.certificates h2 {
+    font-size: var(--font-xxxl);
+    margin-bottom: var(--spacing-xl);
+    color: var(--primary-color);
+}
+
+.certificates h3 {
+    color: var(--text-white);
 }
 
 /* Contact Styles */
